@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "async_polyfill": "^1.0.2",
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
@@ -17,6 +18,8 @@
   "devDependencies": {
     "async": "^2.3.0",
     "cheerio": "^0.22.0",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "superagent": "^3.5.2",
+    "superagent-charset": "^1.2.0"
   }
 }
